@@ -1,0 +1,347 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+{% include "includes/navbar.html" %}
+ 
+<div class="container col-xxl-8 px-4 py-5">
+	<div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+		<div class="col-10 col-sm-8 col-lg-6">
+			<img class="img-fluid" src="{% static 'images/undraw_doctor_kw-5-l.svg' %}" alt="" loading="lazy">
+		</div>
+		<div class="col-lg-6">
+			<div class="lc-block mb-3">
+				<div editable="rich">
+          <span
+            class="sub-heading bg-light py-2 px-4 mb-4 border-radius-30 text-uppercase d-inline-block text-cadet-blue fw-medium">
+            <svg class="heart primary-color me-2" width="20" height="20">
+              <use xlink:href="#heart" />
+            </svg>Live your life
+          </span>
+					<h2 class="fw-bold display-5">We Care About Your Health </h2>
+				</div>
+			</div>
+
+			<div class="lc-block mb-3">
+				<div editable="rich">
+					<p class="lead">Science has proven that chronic, low-grade inflammation can turn into a silent killer that contributes to cardiovas­cular disease, cancer, type 2 diabetes and other conditions. Get simple tips to fight inflammation and stay healthy.
+					</p>
+				</div>
+			</div>
+
+			
+
+		</div>
+	</div>
+</div> 
+ 
+  <section id="about-us" class="padding-large">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="counter-info text-center">
+            <div
+              class="counter-number text-primary-500 display-2 fw-semibold d-flex align-items-center justify-content-center">
+              <span class="counter-prefix">+</span>
+              <h5 class="timer display-4 fw-bold m-0" data-to="5120" data-speed="8000">5120</h5>
+            </div>
+            <p class="counter-description">Happy Patients</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="counter-info text-center">
+            <div
+              class="counter-number text-primary-500 display-2 fw-semibold d-flex align-items-center justify-content-center">
+              <span class="counter-prefix">+</span>
+              <h5 class="timer display-4 fw-bold m-0" data-to="5120" data-speed="8000">26</h5>
+            </div>
+            <p class="counter-description">Total Branches</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="counter-info text-center">
+            <div
+              class="counter-number text-primary-500 display-2 fw-semibold d-flex align-items-center justify-content-center">
+              <span class="counter-prefix">+</span>
+              <h5 class="timer display-4 fw-bold m-0" data-to="5120" data-speed="8000">53</h5>
+            </div>
+            <p class="counter-description">Senior Doctors</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="counter-info text-center">
+            <div
+              class="counter-number text-primary-500 display-2 fw-semibold d-flex align-items-center justify-content-center">
+              <span class="counter-prefix">+</span>
+              <h5 class="timer display-4 fw-bold m-0" data-to="5120" data-speed="8000">10</h5>
+            </div>
+            <p class="counter-description">Years Experience</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="our-services"
+    style="background-image: url(static/images/services-bg.jpg); background-repeat: no-repeat; background-position: center; background-position: top;">
+    <div class="container">
+      <div class="row">
+
+        <div class="display-header text-light d-flex flex-wrap justify-content-between padding-medium">
+          <div class=" p-5 ">
+            <h2 class="text-dark">Our Best Services For Your Solution</h2>
+          </div>
+         
+        </div>
+
+        <div class="col-lg-3 col-md-6 pb-3" >
+          <div class="icon-box p-4 bg-light border-radius-10 text-center" style="height: 300px;">
+            <div class="icon-box-icon">
+              <svg class="home-thermometer mt-3 primary-color-500" width="50" height="50">
+                <use xlink:href="#home-thermometer" />
+              </svg>
+            </div>
+            <div class="icon-box-content">
+              <h3 class="card-title py-2">General Practitioners</h3>
+              <p>Aliquam etiam lectus adipiscing est auctor mi quisque non viverra.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 pb-3">
+          <div class="icon-box p-4 bg-light border-radius-10 text-center" style="height: 300px;">
+            <div class="icon-box-icon">
+              <svg class="pregnant-woman mt-3 primary-color-500" width="50" height="50">
+                <use xlink:href="#pregnant-woman" />
+              </svg>
+            </div>
+            <div class="icon-box-content">
+              <h3 class="card-title py-2">Pregnancy   Support</h3>
+              <p>Aliquam etiam lectus adipiscing est auctor mi quisque non viverra.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 pb-3">
+          <div class="icon-box p-4 bg-light border-radius-10 text-center" style="height: 300px;">
+            <div class="icon-box-icon">
+              <svg class="nutrition mt-3 primary-color-500" width="50" height="50">
+                <use xlink:href="#nutrition" />
+              </svg>
+            </div>
+            <div class="icon-box-content">
+              <h3 class="card-title py-2">Nutritional Support</h3>
+              <p>Aliquam etiam lectus adipiscing est auctor mi quisque non viverra.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 pb-3">
+          <div class="icon-box p-4 bg-light border-radius-10 text-center" style="height: 300px;">
+            <div class="icon-box-icon">
+              <svg class="local-pharmacy mt-3 primary-color-500" width="50" height="50">
+                <use xlink:href="#local-pharmacy" />
+              </svg>
+            </div>
+            <div class="icon-box-content">
+              <h3 class="card-title py-2">Pharmaceutical care</h3>
+              <p>Aliquam etiam lectus adipiscing est auctor mi quisque non viverra.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="faqs" class="padding-large">
+    <div class="container">
+      <div class="row">
+        <div class="display-header mb-5">
+          <h2 class="display-5 fw-bold text-center text-dark">We’ve Got Answers</h2>
+        </div>
+        <div class="accordion" id="accordion">
+          <div class="accordion-item border-0 py-3">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button fs-4 fw-bold text-dark bg-transparent focus-transparent text-capitalize shadow-none"
+                type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                aria-controls="collapseOne">
+                Why to believe with Insove medical healthcare ?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse border-0 collapse show" data-bs-parent="#accordion">
+              <div class="accordion-body">
+                <p>Diam orci gravida convallis at enim risus viverra. Hac mi tristique in aliquet tincidunt nam lectus
+                  nec. Placerat interdum auctor facilisi massa laoreet hendrerit posuere a. Tristique ultricies
+                  consectetu at.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item border-0 py-3">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button fs-4 fw-bold text-dark bg-transparent collapsed focus-transparent text-capitalize shadow-none"
+                type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                aria-controls="collapseTwo">
+                Will we get healthcare updates after surgery ?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordion">
+              <div class="accordion-body">
+                <p>This is the second item's accordion body.It is hidden by default, until the collapse plugin adds the
+                  appropriate classes that we use to style each element. These classes control the overall appearance,
+                  as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or
+                  overriding our default variables.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item border-0 py-3">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button fs-4 fw-bold text-dark bg-transparent collapsed focus-transparent text-capitalize shadow-none"
+                type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                aria-controls="collapseThree">
+                What is the cost for just check-up ?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordion">
+              <div class="accordion-body">
+                <p>This is the third item's accordion body.It is hidden by default, until the collapse plugin adds the
+                  appropriate classes that we use to style each element. These classes control the overall appearance,
+                  as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or
+                  overriding our default variables.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item border-0 py-3">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button fs-4 fw-bold text-dark bg-transparent collapsed focus-transparent text-capitalize shadow-none"
+                type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                aria-controls="collapseFour">
+                Can i cancel my appointment ?
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordion">
+              <div class="accordion-body">
+                <p>This is the third item's accordion body.It is hidden by default, until the collapse plugin adds the
+                  appropriate classes that we use to style each element. These classes control the overall appearance,
+                  as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or
+                  overriding our default variables.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="department" class="overflow-hidden mt-5">
+    <div class="container-md">
+      <div class="row">
+        <div class="medical-department-tab bg-primary-200 d-flex align-items-start padding-large ps-5 border-radius-20">
+          <div class="nav nav-tabs border-0 col-lg-3 col-md-3 ps-4" id="medical-tab" role="tablist"
+            aria-orientation="vertical">
+            <button class="nav-link text-uppercase text-cadet-blue border-0 bg-transparent pb-4 active"
+              id="laboratory-tab" data-bs-toggle="tab" data-bs-target="#laboratory" type="button" role="tab"
+              aria-controls="laboratory" aria-selected="true">Laboratory Analysis</button>
+            <button class="nav-link text-uppercase text-cadet-blue border-0 bg-transparent pb-4" id="cardiology-tab"
+              data-bs-toggle="tab" data-bs-target="#cardiology" type="button" role="tab" aria-controls="cardiology"
+              aria-selected="false">Cardiology Clinic</button>
+            <button class="nav-link text-uppercase text-cadet-blue border-0 bg-transparent pb-4" id="gynecology-tab"
+              data-bs-toggle="tab" data-bs-target="#gynecology" type="button" role="tab" aria-controls="gynecology"
+              aria-selected="false">Gynecology Clinic</button>
+            <button class="nav-link text-uppercase text-cadet-blue border-0 bg-transparent pb-4" id="pathology-tab"
+              data-bs-toggle="tab" data-bs-target="#pathology" type="button" role="tab" aria-controls="pathology"
+              aria-selected="false">Pathology Clinic</button>
+            <button class="nav-link text-uppercase text-cadet-blue border-0 bg-transparent pb-4" id="pediatrics-tab"
+              data-bs-toggle="tab" data-bs-target="#pediatrics" type="button" role="tab" aria-controls="pediatrics"
+              aria-selected="false">Pediatrics Clinic</button>
+            <button class="nav-link text-uppercase text-cadet-blue border-0 bg-transparent" id="neurology-tab"
+              data-bs-toggle="tab" data-bs-target="#neurology" type="button" role="tab" aria-controls="neurology"
+              aria-selected="false">Neurology Clinic</button>
+          </div>
+          <div class="tab-content col-lg-8 col-md-8" id="tabContent">
+            <div class="tab-pane fade show active position-relative" id="laboratory" role="tabpanel"
+              aria-labelledby="laboratory-tab" tabindex="0">
+              <h2 class="display-5 fw-bold pb-3 text-dark">Laboratory Analysis</h2>
+              <p>Laboratory analysis means a test performed by a labo- ratory on body fluid, tissue, or excretion for
+                the purpose of determining the presence, absence, or concentration of various substances in the human
+                body.</p>
+              <p>Sampling is the process of collecting a portion of an environmental medium as representative of the
+                locally remaining medium. The collected portion of the medium is then analyzed to determine the
+                radionuclide concentration.</p>
+             
+            
+            </div>
+            <div class="tab-pane fade position-relative" id="cardiology" role="tabpanel"
+              aria-labelledby="cardiology-tab" tabindex="0">
+              <h2 class="display-5 fw-bold pb-3 text-dark">Cardiology Clinic</h2>
+              <p>Vel non viverra ligula odio ornare turpis mauris. Odio aliquam, tincidunt ut vitae elit risus. Tempor
+                egestas condimentum et ac rutrum dui, odio.Vel non viverra ligula odio ornare turpis mauris. Aliquam,
+                tincidunt ut vitae elit risus.</p>
+              <p> Tempor egestas condimentum et ac rutrum dui, odio. Non viverra ligula odio ornare turpis mauris. Dio a
+                Vel non viverra ligula odio ornare turpis mauris.</p>
+              
+         
+            </div>
+            <div class="tab-pane fade position-relative" id="gynecology" role="tabpanel"
+              aria-labelledby="gynecology-tab" tabindex="0">
+              <h2 class="display-5 fw-bold pb-3 text-dark">Gynecology Clinic</h2>
+              <p>Vel non viverra ligula odio ornare turpis mauris. Odio aliquam, tincidunt ut vitae elit risus. Tempor
+                egestas condimentum et ac rutrum dui, odio.Vel non viverra ligula odio ornare turpis mauris. Aliquam,
+                tincidunt ut vitae elit risus.</p>
+              <p> Tempor egestas condimentum et ac rutrum dui, odio. Non viverra ligula odio ornare turpis mauris. Dio a
+                Vel non viverra ligula odio ornare turpis mauris.</p>
+              
+             
+            </div>
+            <div class="tab-pane fade position-relative" id="pathology" role="tabpanel" aria-labelledby="pathology-tab"
+              tabindex="0">
+              <h2 class="display-5 fw-bold pb-3 text-dark">Pathology Clinic</h2>
+              <p>Vel non viverra ligula odio ornare turpis mauris. Odio aliquam, tincidunt ut vitae elit risus. Tempor
+                egestas condimentum et ac rutrum dui, odio.Vel non viverra ligula odio ornare turpis mauris. Aliquam,
+                tincidunt ut vitae elit risus.</p>
+              <p> Tempor egestas condimentum et ac rutrum dui, odio. Non viverra ligula odio ornare turpis mauris. Dio a
+                Vel non viverra ligula odio ornare turpis mauris.</p>
+              
+             
+            </div>
+            <div class="tab-pane fade position-relative" id="pediatrics" role="tabpanel"
+              aria-labelledby="pediatrics-tab" tabindex="0">
+              <h2 class="display-5 fw-bold pb-3 text-dark">Pediatrics Clinic</h2>
+              <p>Vel non viverra ligula odio ornare turpis mauris. Odio aliquam, tincidunt ut vitae elit risus. Tempor
+                egestas condimentum et ac rutrum dui, odio.Vel non viverra ligula odio ornare turpis mauris. Aliquam,
+                tincidunt ut vitae elit risus.</p>
+              <p> Tempor egestas condimentum et ac rutrum dui, odio. Non viverra ligula odio ornare turpis mauris. Dio a
+                Vel non viverra ligula odio ornare turpis mauris.</p>
+              
+              
+            </div>
+            <div class="tab-pane fade position-relative" id="neurology" role="tabpanel" aria-labelledby="neurology-tab"
+              tabindex="0">
+              <h2 class="display-5 fw-bold pb-3 text-dark">Neurology Clinic</h2>
+              <p>Vel non viverra ligula odio ornare turpis mauris. Odio aliquam, tincidunt ut vitae elit risus. Tempor
+                egestas condimentum et ac rutrum dui, odio.Vel non viverra ligula odio ornare turpis mauris. Aliquam,
+                tincidunt ut vitae elit risus.</p>
+              <p> Tempor egestas condimentum et ac rutrum dui, odio. Non viverra ligula odio ornare turpis mauris. Dio a
+                Vel non viverra ligula odio ornare turpis mauris.</p>
+              
+          
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  
+  {% endblock content %}
+  
+
+ 
